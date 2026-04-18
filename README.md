@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Juan Felipe Mosquera — Senior Fullstack & SaaS Architect Portfolio
 
-## Getting Started
+Este es mi portafolio profesional, una plataforma diseñada para demostrar capacidades avanzadas en arquitectura de software, desarrollo fullstack y optimización de productos digitales de alto rendimiento.
 
-First, run the development server:
+## 🚀 Visión del Proyecto
+El objetivo de este portafolio es ir más allá de una simple lista de proyectos. Está construido como una **vitrina de ingeniería**, donde se exponen principios de diseño sólidos, arquitecturas escalables (SaaS Multitenant, Microservicios) y un enfoque obsesivo por la performance y el crecimiento (SEO/Core Web Vitals).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Stack Tecnológico
+- **Core**: [Next.js 16 (App Router)](https://nextjs.org/) — Utilizando las últimas capacidades de Server Components y optimización de renderizado.
+- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/) — Tipado estricto para asegurar mantenibilidad y escalabilidad.
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) — Sistema de diseño atómico y utilitario.
+- **Animaciones**: [Framer Motion](https://www.framer.com/motion/) — Micro-interacciones premium y flujos de datos animados.
+- **Iconografía**: [Lucide React](https://lucide.dev/) + SVGs personalizados para marcas.
+
+## 🏗️ Highlights Arquitectónicos
+- **Bento Logic**: Organización de información compleja mediante grids interactivos inspirados en los mejores productos modernos.
+- **Data Flow Visualization**: Diagramas dinámicos animados con Framer Motion para explicar arquitecturas SaaS y de Microservicios.
+- **SEO & Performance**: Implementación de JSON-LD, metadatos dinámicos y optimización de carga para un score de 100 en Core Web Vitals.
+- **Responsive Engineering**: Diseño adaptativo de alta fidelidad, asegurando legibilidad extrema en dispositivos móviles.
+
+## 📦 Estructura del Proyecto
+```text
+/app
+  /components
+    /sections     # Secciones modulares (Hero, Projects, TechStack, etc.)
+    /ui           # Componentes reutilizables de bajo nivel (Atoms)
+    /layout       # Componentes estructurales (Navbar, Footer)
+  /config         # Configuración centralizada de datos y links
+  /lib            # Utilidades y lógica de metadatos
+/public           # Assets estáticos y optimizados
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚦 Primeros Pasos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clonar el repositorio.**
+2. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
+3. **Ejecutar en desarrollo**:
+   ```bash
+   npm run dev
+   ```
+4. **Construir para producción**:
+   ```bash
+   npm run build
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Contacto
+Si estás interesado en colaborar o quieres saber más sobre mi enfoque técnico, encuéntrame en:
+- **LinkedIn**: [juanfemosquera](https://www.linkedin.com/in/juanfemosquera/)
+- **Email**: [lassojuanfe@gmail.com](mailto:lassojuanfe@gmail.com)
+- **WhatsApp**: [+57 313 273 5116](https://wa.me/573132735116)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Construido con pasión por la excelencia técnica.*
+"# my-portfolio" 
