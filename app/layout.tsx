@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { generateJsonLd } from "@/app/lib/metadata";
 import { siteConfig } from "@/app/config/siteConfig";
 import { ThemeProvider } from "@/app/components/providers/ThemeProvider";
@@ -30,9 +31,22 @@ export const metadata: Metadata = {
     "React",
     "Node.js",
     "Software Architecture",
+    "Desarrollador Fullstack",
+    "Ingeniero de Software",
+    "Colombia",
+    "Freelance Developer",
+    "PostgreSQL",
+    "Docker",
+    "WebRTC",
+    "Portfolio",
+    "Backend Developer",
+    "Frontend Developer",
   ],
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
   creator: siteConfig.name,
+  alternates: {
+    canonical: siteConfig.url,
+  },
   openGraph: {
     type: "website",
     locale: siteConfig.locale,
@@ -74,6 +88,18 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-V2VNV4GLHM"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-V2VNV4GLHM');
+        `}
+      </Script>
       <body className="min-h-screen bg-background font-sans text-foreground antialiased">
         <ThemeProvider
           attribute="class"

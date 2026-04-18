@@ -181,7 +181,7 @@ export function HeroSection() {
                 <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-emerald-500/10 via-surface to-background">
                   <Image
                     src="/images/perfil.png"
-                    alt="Perfil"
+                    alt="Juan Felipe Mosquera Lasso — Ingeniero Fullstack especializado en SaaS y sistemas en tiempo real"
                     fill
                     quality={100}
                     sizes="(max-width: 768px) 100vw, 500px"
